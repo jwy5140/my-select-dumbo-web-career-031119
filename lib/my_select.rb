@@ -5,7 +5,7 @@ def my_select(collection)
     while n < collection.size do
       x = yield collection[n]
       if (x == true)
-        arr2.push(collection[n]
+        arr2.push(collection[n])
       end
       n += 1 
     end
